@@ -1,0 +1,133 @@
+
+.miPresentacion-{
+    display: grid;
+    grid-template: 400px / 50px repeat(2, 1fr) 50px;
+}
+.miPresentacion- div{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    text-align: initial;
+    place-self: center center;
+}
+.miPresentacion- div h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.miPresentacion- div h2{
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+.miPresentacion- figure{
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+}
+
+/* ############################################################################# */
+
+.misTecnologias-{
+    display: grid;
+    grid-template: 200px / 50px repeat(4, 1fr) 50px;
+    gap: 10px;
+}
+.misTecnologias- .Git{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+.misTecnologias- .JavaScript{
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+}
+.misTecnologias- .Python{
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+}
+.misTecnologias- .SQL{
+    grid-row: 1 / 2;
+    grid-column: 5 / 6;
+}
+.misTecnologias- div p{
+    width: 50%;
+}
+
+/*
+START: Cabecera ------------------------------------------------------------------------------------
+*/
+
+.cabecera-{
+    display: grid;
+    grid-template: repeat(1, 610px) / repeat(2, 441px);
+    gap: 100px;
+    place-content: center center;
+    padding: 50px 0px 50px 0px;
+    background: #1c8adb;
+}
+.cabecera- .contenedor-- header{
+    height: 12%;
+}
+.cabecera- .contenedor-- main{
+    height: 73%;
+}
+.cabecera- .contenedor-- main .logo{
+    height: 74.5%;
+}
+.cabecera- .contenedor-- main .nombre{
+    height: 25.5%;
+}
+.cabecera- .contenedor-- main .nombre h2{
+    font-size: 5.8rem;
+}
+.cabecera- .contenedor-- footer{
+    height: 15%;
+}
+.cabecera- .contenedor-- footer nav ul li a img{
+    width: 30px;
+}
+.cabecera- .texto--{
+    justify-content: center;
+}
+.cabecera- .texto-- header{
+    text-align: left;
+    margin-bottom: 44px;
+}
+.cabecera- .texto-- header h1 .uno{
+    font-size: 5.8rem;
+}
+.cabecera- .texto-- header h1 .cero{
+    font-size: 4.9rem;
+}
+
+/*
+START: Iconos --------------------------------------------------------------------------------------
+*/
+
+.iconos--{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 65px 50px 65px;
+}
+.iconos-- article{
+    width: 330px;
+}
+.iconos-- .unico{
+    margin: 0px;
+}
+
+/*
+START: PieDePagina ---------------------------------------------------------------------------------
+*/
+
+.pieDePagina-{
+    display: grid;
+    grid-template: repeat(1, 125px) 100px / repeat(3, 1fr);
+    padding: 25px 65px 0px 65px;
+}
+.pieDePagina- section p{
+    height: 75px;
+    font-size: 1.4rem;
+}
+.pieDePagina- footer{
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    font-size: 1.4rem;
+}
